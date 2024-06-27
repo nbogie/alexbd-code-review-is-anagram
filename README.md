@@ -1,29 +1,7 @@
-# JavaScript Kata Template
+Write a function, `isAnagram` , which takes two strings and returns a boolean indicating whether or not the two strings are anagrams of each other - i.e. where each can be formed as a rearrangement of the letters of the other, with no letters left over.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+The strings are guaranteed to contain only characters in range a-z or A-Z.
 
-> This is part of Academy's technical curriculum for **The Mark**. All parts of that curriculum, including this project, are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+The algorithm should be case-insensitive - it *should* consider “aAbC” to be an anagram of “caBa”
 
-# Setup
-
-`yarn`
-
-# Run tests
-
-`yarn test` - this will run `jest`
- 
-or
-
-`yarn test --bail` - stop as soon as one suite fails
-
-or
-
-`yarn test:watch` - this will run `jest --watchAll`
-
-# Run without tests
-
-`yarn start` - this will run node src/main.js
-
-# Writing tests
-
-See https://jestjs.io/docs/expect
+The strings do not have to be real words from the dictionary.
