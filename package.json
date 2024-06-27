@@ -5,7 +5,7 @@
   "author": "nbogie",
   "license": "MIT",
   "scripts": {
-    "start": "node src/main.js",
+    "start": "node src/isAnagram.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "yarn test --watchAll"
   },
