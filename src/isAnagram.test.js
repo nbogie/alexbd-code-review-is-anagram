@@ -1,4 +1,4 @@
-import isAnagram from "./isAnagram";
+import { isAnagram } from "./isAnagram";
 
 test("lower case strings which are anagrams", () => {
     expect(isAnagram("hello", "llohe")).toBe(true);

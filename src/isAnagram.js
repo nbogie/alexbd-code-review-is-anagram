@@ -1,12 +1,12 @@
-import { areSameLength } from "./areSameLength";
-import { sortString } from "./sortString";
+import { areSameLength } from "./areSameLength.js";
+import { sortString } from "./sortString.js";
 
 /** Takes two strings and checks if they are anagrams of each other
  * @param {string} string1
  * @param {string} string2
  * @returns {boolean} true if strings are anagrams of each other
  */
-export default function isAnagram(string1, string2) {
+export function isAnagram(string1, string2) {
     let continueAnagramCheck = true;
     const lowerCaseSorted1 = sortString(string1);
     const lowerCaseSorted2 = sortString(string2);
