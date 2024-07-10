@@ -2,7 +2,7 @@
  * @param {string} string
  * @returns {string[]} returns an array of strings
  */
-export default function sortString(string) {
+export function sortString(string) {
     const stringAsArray = string.toLowerCase().split("");
     const sortedString = stringAsArray.sort();
     return sortedString;

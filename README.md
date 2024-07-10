@@ -2,6 +2,6 @@ Write a function, `isAnagram` , which takes two strings and returns a boolean in
 
 The strings are guaranteed to contain only characters in range a-z or A-Z.
 
-The algorithm should be case-insensitive - it *should* consider “aAbC” to be an anagram of “caBa”
+The algorithm should be case-insensitive - it _should_ consider “aAbC” to be an anagram of “caBa”
 
 The strings do not have to be real words from the dictionary.

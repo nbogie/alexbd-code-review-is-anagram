@@ -3,6 +3,6 @@
  * @param {string} string2
  * @returns {boolean} true if strings are same length
  */
-export default function areSameLength(string1, string2) {
+export function areSameLength(string1, string2) {
     return string1.length === string2.length;
 }

@@ -1,5 +1,5 @@
-import areSameLength from "./areSameLength";
-import sortString from "./sortString";
+import { areSameLength } from "./areSameLength";
+import { sortString } from "./sortString";
 
 /** Takes two strings and checks if they are anagrams of each other
  * @param {string} string1
@@ -13,10 +13,12 @@ export default function isAnagram(string1, string2) {
 
     if (areSameLength(string1, string2)) {
         for (let i = 0; i < string1.length; i++) {
-            if (lowerCaseSorted1[i] === lowerCaseSorted2[i] && continueAnagramCheck === true) {
-                continueAnagramCheck = true
-            }
-            else {
+            if (
+                lowerCaseSorted1[i] === lowerCaseSorted2[i] &&
+                continueAnagramCheck === true
+            ) {
+                continueAnagramCheck = true;
+            } else {
                 return false;
             }
         }
