@@ -13,6 +13,8 @@ test("lower case strings which are NOT anagrams", () => {
     expect(isAnagram("jkuh", "ooss")).toBe(false);
     expect(isAnagram("table", "lbtsa")).toBe(false);
     expect(isAnagram("house", "sodhu")).toBe(false);
+    expect(isAnagram("house", "housee")).toBe(false);
+    expect(isAnagram("hhouse", "house")).toBe(false);
     expect(isAnagram("ground", "ndrggu")).toBe(false);
 });
 
